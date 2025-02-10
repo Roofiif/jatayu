@@ -5,6 +5,7 @@ from aiogram.types import Message
 from aiogram.filters import Command
 from rapidfuzz import process
 import os
+from aiogram.client.default import DefaultBotProperties
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -13,7 +14,7 @@ load_dotenv()
 TOKEN = os.getenv("TOKEN")
 
 # Inisialisasi bot dan dispatcher
-bot = Bot(token=TOKEN, parse_mode="Markdown")
+bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode="Markdown"))
 dp = Dispatcher()
 router = Router()  # Router untuk handler
 
