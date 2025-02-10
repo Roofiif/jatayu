@@ -3,4 +3,3 @@ numpy
 pandas
 python-dotenv==1.0.0
 rapidfuzz==3.5.2
-python>=3.10
