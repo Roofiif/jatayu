@@ -1,6 +1,6 @@
 aiogram==2.25.1
 numpy
-pandas==2.1.0
+pandas
 python-dotenv==1.0.0
 rapidfuzz==3.5.2
 python>=3.10
