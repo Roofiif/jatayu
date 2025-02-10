@@ -1,1 +1,0 @@
-echo '[start]\ncmd = "python bot.py"' > .nixpacks.toml
