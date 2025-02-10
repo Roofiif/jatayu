@@ -4,6 +4,8 @@ from aiogram.types import Message
 from aiogram.utils import executor
 from rapidfuzz import process
 import os
+from dotenv import load_dotenv
+load_dotenv()
 
 # Masukkan TOKEN dari BotFather
 TOKEN = os.getenv("TOKEN")

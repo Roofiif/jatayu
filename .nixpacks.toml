@@ -1,5 +1,1 @@
-[phases.setup]
-nixPkgs = ["python311", "pip", "git"]
-
-[start]
-cmd = "python bot.py"
+echo '[start]\ncmd = "python bot.py"' > .nixpacks.toml
