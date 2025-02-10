@@ -80,6 +80,7 @@ pyparsing==3.0.9
 PySocks==1.7.1
 pyTelegramBotAPI==4.12.0
 python-dateutil==2.8.2
+python-dotenv==1.0.1
 python-telegram-bot==13.13
 pytz==2023.3
 pywin32==303
