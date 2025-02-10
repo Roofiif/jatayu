@@ -1,4 +1,4 @@
-aiogram==2.25.1
+aiogram
 numpy
 pandas
 python-dotenv==1.0.0
